@@ -14,7 +14,7 @@ public class gradeCalci {
         System.out.print("Enter marks for CS:");
         CS=sub.nextInt();
         System.out.print("Enter marks for DS:");
-        SST=sub.nextInt();
+        DS=sub.nextInt();
         Total= (float) (English+Science+Maths+CS+DS);//Typecasting
         System.out.println("Total marks obtained by the student is " +Total);
         AvgPercentage=Total/5;//(Total/500)*100 IT IS SAME
